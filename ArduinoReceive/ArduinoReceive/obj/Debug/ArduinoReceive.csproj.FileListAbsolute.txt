@@ -1,0 +1,7 @@
+D:\Programme\Atmega328\ArduinoReceive\ArduinoReceive\obj\Debug\ArduinoReceive.csprojAssemblyReference.cache
+D:\Programme\Atmega328\ArduinoReceive\ArduinoReceive\obj\Debug\ArduinoReceive.csproj.CoreCompileInputs.cache
+D:\Programme\Atmega328\ArduinoReceive\ArduinoReceive\bin\Debug\ArduinoReceive.exe.config
+D:\Programme\Atmega328\ArduinoReceive\ArduinoReceive\bin\Debug\ArduinoReceive.exe
+D:\Programme\Atmega328\ArduinoReceive\ArduinoReceive\bin\Debug\ArduinoReceive.pdb
+D:\Programme\Atmega328\ArduinoReceive\ArduinoReceive\obj\Debug\ArduinoReceive.exe
+D:\Programme\Atmega328\ArduinoReceive\ArduinoReceive\obj\Debug\ArduinoReceive.pdb

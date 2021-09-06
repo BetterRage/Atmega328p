@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1606913665 source:h:\desktop\automation 2020\atmega328\inkrementtest\fuse.c
+	<avr/io.h>
+
+1606918452 source:h:\desktop\automation 2020\atmega328\inkrementtest\main.c
+	<avr/io.h>
+	"Delay1174.h"
+
+1606918466 h:\desktop\automation 2020\atmega328\inkrementtest\delay1174.h
+

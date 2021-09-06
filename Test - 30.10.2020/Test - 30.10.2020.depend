@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1604045795 source:d:\programme\atmega328\test - 30.10.2020\fuse.c
+	<avr/io.h>
+
+1604046601 source:d:\programme\atmega328\test - 30.10.2020\main.c
+	<avr/io.h>
+	<util/delay.h>
+

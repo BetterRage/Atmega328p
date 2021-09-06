@@ -1,0 +1,4 @@
+# depslib dependency file v1.0
+1618401007 source:d:\programme\atmega328\ultraschalldistanz\fuse.c
+	<avr/io.h>
+

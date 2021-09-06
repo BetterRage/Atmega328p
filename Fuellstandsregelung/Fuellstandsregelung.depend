@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1611904158 source:h:\desktop\automation 2020\atmega328\fuellstandsregelung\fuse.c
+	<avr/io.h>
+
+1611911454 source:h:\desktop\automation 2020\atmega328\fuellstandsregelung\main.c
+	<avr/io.h>
+
+1611904160 source:d:\programme\atmega328\fuellstandsregelung\fuse.c
+	<avr/io.h>
+
+1611927720 source:d:\programme\atmega328\fuellstandsregelung\main.c
+	<avr/io.h>
+	<stdlib.h>
+
+1611066925 d:\programme\atmega328\headerfunktionen\uart.h
+	<avr/io.h>
+

@@ -1,0 +1,4 @@
+# depslib dependency file v1.0
+1606478619 source:d:\programme\atmega328\binaerzaehler\fuse.c
+	<avr/io.h>
+

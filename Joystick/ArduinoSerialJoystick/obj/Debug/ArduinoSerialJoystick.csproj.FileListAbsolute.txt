@@ -1,0 +1,10 @@
+D:\Programme\Atmega328\TestADC\ArduinoSerialJoystick\bin\Debug\ArduinoSerialJoystick.exe.config
+D:\Programme\Atmega328\TestADC\ArduinoSerialJoystick\bin\Debug\ArduinoSerialJoystick.exe
+D:\Programme\Atmega328\TestADC\ArduinoSerialJoystick\bin\Debug\ArduinoSerialJoystick.pdb
+D:\Programme\Atmega328\TestADC\ArduinoSerialJoystick\obj\Debug\ArduinoSerialJoystick.csprojAssemblyReference.cache
+D:\Programme\Atmega328\TestADC\ArduinoSerialJoystick\obj\Debug\ArduinoSerialJoystick.Form1.resources
+D:\Programme\Atmega328\TestADC\ArduinoSerialJoystick\obj\Debug\ArduinoSerialJoystick.Properties.Resources.resources
+D:\Programme\Atmega328\TestADC\ArduinoSerialJoystick\obj\Debug\ArduinoSerialJoystick.csproj.GenerateResource.cache
+D:\Programme\Atmega328\TestADC\ArduinoSerialJoystick\obj\Debug\ArduinoSerialJoystick.csproj.CoreCompileInputs.cache
+D:\Programme\Atmega328\TestADC\ArduinoSerialJoystick\obj\Debug\ArduinoSerialJoystick.exe
+D:\Programme\Atmega328\TestADC\ArduinoSerialJoystick\obj\Debug\ArduinoSerialJoystick.pdb

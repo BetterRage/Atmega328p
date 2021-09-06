@@ -1,0 +1,10 @@
+D:\Programme\Atmega328\Voltmeter\obj\Debug\Voltmeter.csprojAssemblyReference.cache
+D:\Programme\Atmega328\Voltmeter\obj\Debug\Voltmeter.Properties.Resources.resources
+D:\Programme\Atmega328\Voltmeter\obj\Debug\Voltmeter.csproj.GenerateResource.cache
+D:\Programme\Atmega328\Voltmeter\obj\Debug\Voltmeter.csproj.CoreCompileInputs.cache
+D:\Programme\Atmega328\Voltmeter\bin\Debug\Voltmeter.exe.config
+D:\Programme\Atmega328\Voltmeter\bin\Debug\Voltmeter.exe
+D:\Programme\Atmega328\Voltmeter\bin\Debug\Voltmeter.pdb
+D:\Programme\Atmega328\Voltmeter\obj\Debug\Voltmeter.Form1.resources
+D:\Programme\Atmega328\Voltmeter\obj\Debug\Voltmeter.exe
+D:\Programme\Atmega328\Voltmeter\obj\Debug\Voltmeter.pdb

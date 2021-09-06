@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1607530515 source:d:\programme\atmega328\delay4bitdigital\fuse.c
+	<avr/io.h>
+
+1607611300 source:d:\programme\atmega328\delay4bitdigital\main.c
+	<avr/io.h>
+	"../Header/delay.h"
+
+1607611176 d:\programme\atmega328\header\delay.h
+

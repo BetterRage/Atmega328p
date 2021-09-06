@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1616780658 source:d:\programme\atmega328\lcdtest\fuse.c
+	<avr/io.h>
+
+1616782933 source:d:\programme\atmega328\lcdtest\main.c
+	"../Headerfunktionen/lcd.h"
+	<avr/io.h>
+
+1616782648 d:\programme\atmega328\headerfunktionen\lcd.h
+	<avr/io.h>
+	"lcd.h"
+	<stdarg.h>
+	<stdio.h>
+	"mydelay.h"
+
+1608201242 d:\programme\atmega328\headerfunktionen\mydelay.h
+	<avr/io.h>
+
+1616783681 source:d:\programme\atmega328\lcdtest\lcd.c
+	"lcd.h"
+	<stdarg.h>
+	<stdio.h>
+	<util/delay.h>
+
+1616783443 d:\programme\atmega328\lcdtest\lcd.h
+	<avr/io.h>
+

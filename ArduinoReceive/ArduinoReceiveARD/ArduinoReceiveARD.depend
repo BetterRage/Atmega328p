@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1611065887 source:d:\programme\atmega328\arduinoreceive\arduinoreceiveard\fuse.c
+	<avr/io.h>
+
+1611068420 source:d:\programme\atmega328\arduinoreceive\arduinoreceiveard\main.c
+	"../../Headerfunktionen/UART.h"
+	"../../Headerfunktionen/mydelay.h"
+	<avr/io.h>
+
+1611066925 d:\programme\atmega328\headerfunktionen\uart.h
+	<avr/io.h>
+
+1608201242 d:\programme\atmega328\headerfunktionen\mydelay.h
+	<avr/io.h>
+

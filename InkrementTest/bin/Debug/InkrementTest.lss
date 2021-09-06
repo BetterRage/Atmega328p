@@ -1,0 +1,246 @@
+
+bin\Debug\InkrementTest.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         0000019c  00000000  00000000  00000074  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .fuse         00000003  00820000  00820000  00000210  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .debug_aranges 00000020  00000000  00000000  00000213  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  3 .debug_pubnames 00000042  00000000  00000000  00000233  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  4 .debug_info   00000171  00000000  00000000  00000275  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_abbrev 000000f6  00000000  00000000  000003e6  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_line   00000161  00000000  00000000  000004dc  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_frame  00000030  00000000  00000000  00000640  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_str    000000bc  00000000  00000000  00000670  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	0c 94 34 00 	jmp	0x68	; 0x68 <__ctors_end>
+   4:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+   8:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+   c:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  10:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  14:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  18:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  1c:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  20:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  24:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  28:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  2c:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  30:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  34:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  38:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  3c:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  40:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  44:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  48:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  4c:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  50:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  54:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  58:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  5c:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  60:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  64:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+
+00000068 <__ctors_end>:
+  68:	11 24       	eor	r1, r1
+  6a:	1f be       	out	0x3f, r1	; 63
+  6c:	cf ef       	ldi	r28, 0xFF	; 255
+  6e:	d8 e0       	ldi	r29, 0x08	; 8
+  70:	de bf       	out	0x3e, r29	; 62
+  72:	cd bf       	out	0x3d, r28	; 61
+  74:	0e 94 86 00 	call	0x10c	; 0x10c <main>
+  78:	0c 94 cc 00 	jmp	0x198	; 0x198 <_exit>
+
+0000007c <__bad_interrupt>:
+  7c:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
+
+00000080 <delay>:
+#ifndef DELAY1174_H
+#define DELAY1174_H
+void delay(uint32_t ms)
+{
+  80:	df 93       	push	r29
+  82:	cf 93       	push	r28
+  84:	cd b7       	in	r28, 0x3d	; 61
+  86:	de b7       	in	r29, 0x3e	; 62
+  88:	2c 97       	sbiw	r28, 0x0c	; 12
+  8a:	0f b6       	in	r0, 0x3f	; 63
+  8c:	f8 94       	cli
+  8e:	de bf       	out	0x3e, r29	; 62
+  90:	0f be       	out	0x3f, r0	; 63
+  92:	cd bf       	out	0x3d, r28	; 61
+  94:	69 87       	std	Y+9, r22	; 0x09
+  96:	7a 87       	std	Y+10, r23	; 0x0a
+  98:	8b 87       	std	Y+11, r24	; 0x0b
+  9a:	9c 87       	std	Y+12, r25	; 0x0c
+    uint32_t ms32=ms*382;
+  9c:	89 85       	ldd	r24, Y+9	; 0x09
+  9e:	9a 85       	ldd	r25, Y+10	; 0x0a
+  a0:	ab 85       	ldd	r26, Y+11	; 0x0b
+  a2:	bc 85       	ldd	r27, Y+12	; 0x0c
+  a4:	2e e7       	ldi	r18, 0x7E	; 126
+  a6:	31 e0       	ldi	r19, 0x01	; 1
+  a8:	40 e0       	ldi	r20, 0x00	; 0
+  aa:	50 e0       	ldi	r21, 0x00	; 0
+  ac:	bc 01       	movw	r22, r24
+  ae:	cd 01       	movw	r24, r26
+  b0:	0e 94 ad 00 	call	0x15a	; 0x15a <__mulsi3>
+  b4:	dc 01       	movw	r26, r24
+  b6:	cb 01       	movw	r24, r22
+  b8:	8d 83       	std	Y+5, r24	; 0x05
+  ba:	9e 83       	std	Y+6, r25	; 0x06
+  bc:	af 83       	std	Y+7, r26	; 0x07
+  be:	b8 87       	std	Y+8, r27	; 0x08
+    uint32_t zahl=0;
+  c0:	19 82       	std	Y+1, r1	; 0x01
+  c2:	1a 82       	std	Y+2, r1	; 0x02
+  c4:	1b 82       	std	Y+3, r1	; 0x03
+  c6:	1c 82       	std	Y+4, r1	; 0x04
+  c8:	0b c0       	rjmp	.+22     	; 0xe0 <delay+0x60>
+    while(zahl<ms32)
+        zahl++;
+  ca:	89 81       	ldd	r24, Y+1	; 0x01
+  cc:	9a 81       	ldd	r25, Y+2	; 0x02
+  ce:	ab 81       	ldd	r26, Y+3	; 0x03
+  d0:	bc 81       	ldd	r27, Y+4	; 0x04
+  d2:	01 96       	adiw	r24, 0x01	; 1
+  d4:	a1 1d       	adc	r26, r1
+  d6:	b1 1d       	adc	r27, r1
+  d8:	89 83       	std	Y+1, r24	; 0x01
+  da:	9a 83       	std	Y+2, r25	; 0x02
+  dc:	ab 83       	std	Y+3, r26	; 0x03
+  de:	bc 83       	std	Y+4, r27	; 0x04
+#define DELAY1174_H
+void delay(uint32_t ms)
+{
+    uint32_t ms32=ms*382;
+    uint32_t zahl=0;
+    while(zahl<ms32)
+  e0:	29 81       	ldd	r18, Y+1	; 0x01
+  e2:	3a 81       	ldd	r19, Y+2	; 0x02
+  e4:	4b 81       	ldd	r20, Y+3	; 0x03
+  e6:	5c 81       	ldd	r21, Y+4	; 0x04
+  e8:	8d 81       	ldd	r24, Y+5	; 0x05
+  ea:	9e 81       	ldd	r25, Y+6	; 0x06
+  ec:	af 81       	ldd	r26, Y+7	; 0x07
+  ee:	b8 85       	ldd	r27, Y+8	; 0x08
+  f0:	28 17       	cp	r18, r24
+  f2:	39 07       	cpc	r19, r25
+  f4:	4a 07       	cpc	r20, r26
+  f6:	5b 07       	cpc	r21, r27
+  f8:	40 f3       	brcs	.-48     	; 0xca <delay+0x4a>
+        zahl++;
+}
+  fa:	2c 96       	adiw	r28, 0x0c	; 12
+  fc:	0f b6       	in	r0, 0x3f	; 63
+  fe:	f8 94       	cli
+ 100:	de bf       	out	0x3e, r29	; 62
+ 102:	0f be       	out	0x3f, r0	; 63
+ 104:	cd bf       	out	0x3d, r28	; 61
+ 106:	cf 91       	pop	r28
+ 108:	df 91       	pop	r29
+ 10a:	08 95       	ret
+
+0000010c <main>:
+#include <avr/io.h>
+#include "Delay1174.h"
+void delay(uint32_t ms);
+int main(void)
+{
+ 10c:	df 93       	push	r29
+ 10e:	cf 93       	push	r28
+ 110:	cd b7       	in	r28, 0x3d	; 61
+ 112:	de b7       	in	r29, 0x3e	; 62
+
+    DDRD=0b00000100;
+ 114:	ea e2       	ldi	r30, 0x2A	; 42
+ 116:	f0 e0       	ldi	r31, 0x00	; 0
+ 118:	84 e0       	ldi	r24, 0x04	; 4
+ 11a:	80 83       	st	Z, r24
+    PORTD=1<<PD2;
+ 11c:	eb e2       	ldi	r30, 0x2B	; 43
+ 11e:	f0 e0       	ldi	r31, 0x00	; 0
+ 120:	84 e0       	ldi	r24, 0x04	; 4
+ 122:	80 83       	st	Z, r24
+
+    while(1)
+    {
+        delay(3000);
+ 124:	68 eb       	ldi	r22, 0xB8	; 184
+ 126:	7b e0       	ldi	r23, 0x0B	; 11
+ 128:	80 e0       	ldi	r24, 0x00	; 0
+ 12a:	90 e0       	ldi	r25, 0x00	; 0
+ 12c:	0e 94 40 00 	call	0x80	; 0x80 <delay>
+        PORTD|=1<<PD2;
+ 130:	ab e2       	ldi	r26, 0x2B	; 43
+ 132:	b0 e0       	ldi	r27, 0x00	; 0
+ 134:	eb e2       	ldi	r30, 0x2B	; 43
+ 136:	f0 e0       	ldi	r31, 0x00	; 0
+ 138:	80 81       	ld	r24, Z
+ 13a:	84 60       	ori	r24, 0x04	; 4
+ 13c:	8c 93       	st	X, r24
+        delay(3000);
+ 13e:	68 eb       	ldi	r22, 0xB8	; 184
+ 140:	7b e0       	ldi	r23, 0x0B	; 11
+ 142:	80 e0       	ldi	r24, 0x00	; 0
+ 144:	90 e0       	ldi	r25, 0x00	; 0
+ 146:	0e 94 40 00 	call	0x80	; 0x80 <delay>
+        PORTD&=~(1<<PD2);
+ 14a:	ab e2       	ldi	r26, 0x2B	; 43
+ 14c:	b0 e0       	ldi	r27, 0x00	; 0
+ 14e:	eb e2       	ldi	r30, 0x2B	; 43
+ 150:	f0 e0       	ldi	r31, 0x00	; 0
+ 152:	80 81       	ld	r24, Z
+ 154:	8b 7f       	andi	r24, 0xFB	; 251
+ 156:	8c 93       	st	X, r24
+ 158:	e5 cf       	rjmp	.-54     	; 0x124 <main+0x18>
+
+0000015a <__mulsi3>:
+ 15a:	62 9f       	mul	r22, r18
+ 15c:	d0 01       	movw	r26, r0
+ 15e:	73 9f       	mul	r23, r19
+ 160:	f0 01       	movw	r30, r0
+ 162:	82 9f       	mul	r24, r18
+ 164:	e0 0d       	add	r30, r0
+ 166:	f1 1d       	adc	r31, r1
+ 168:	64 9f       	mul	r22, r20
+ 16a:	e0 0d       	add	r30, r0
+ 16c:	f1 1d       	adc	r31, r1
+ 16e:	92 9f       	mul	r25, r18
+ 170:	f0 0d       	add	r31, r0
+ 172:	83 9f       	mul	r24, r19
+ 174:	f0 0d       	add	r31, r0
+ 176:	74 9f       	mul	r23, r20
+ 178:	f0 0d       	add	r31, r0
+ 17a:	65 9f       	mul	r22, r21
+ 17c:	f0 0d       	add	r31, r0
+ 17e:	99 27       	eor	r25, r25
+ 180:	72 9f       	mul	r23, r18
+ 182:	b0 0d       	add	r27, r0
+ 184:	e1 1d       	adc	r30, r1
+ 186:	f9 1f       	adc	r31, r25
+ 188:	63 9f       	mul	r22, r19
+ 18a:	b0 0d       	add	r27, r0
+ 18c:	e1 1d       	adc	r30, r1
+ 18e:	f9 1f       	adc	r31, r25
+ 190:	bd 01       	movw	r22, r26
+ 192:	cf 01       	movw	r24, r30
+ 194:	11 24       	eor	r1, r1
+ 196:	08 95       	ret
+
+00000198 <_exit>:
+ 198:	f8 94       	cli
+
+0000019a <__stop_program>:
+ 19a:	ff cf       	rjmp	.-2      	; 0x19a <__stop_program>

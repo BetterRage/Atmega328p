@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1607690102 source:d:\programme\atmega328\knightriderlauflicht\fuse.c
+	<avr/io.h>
+
+1607690580 source:d:\programme\atmega328\knightriderlauflicht\main.c
+	<avr/io.h>
+

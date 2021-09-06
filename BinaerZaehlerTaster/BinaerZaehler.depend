@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1606478619 source:d:\programme\atmega328\binaerzaehler\fuse.c
+	<avr/io.h>
+
+1606478620 source:h:\desktop\automation 2020\atmega328\binaerzaehler\fuse.c
+	<avr/io.h>
+
+1607514764 source:h:\desktop\automation 2020\atmega328\binaerzaehler\main.c
+	<avr/io.h>
+	"Delay1174.h"
+
+1607498083 h:\desktop\automation 2020\atmega328\binaerzaehler\delay1174.h
+
+1606478620 source:h:\desktop\automation 2020\atmega328\binaerzaehlertaster\fuse.c
+	<avr/io.h>
+
+1607518959 source:h:\desktop\automation 2020\atmega328\binaerzaehlertaster\main.c
+	<avr/io.h>
+	"Delay1174.h"
+
+1607498083 h:\desktop\automation 2020\atmega328\binaerzaehlertaster\delay1174.h
+
+1606482220 source:d:\programme\atmega328\binaerzaehlertaster\fuse.c
+	<avr/io.h>
+
+1618404698 source:d:\programme\atmega328\binaerzaehlertaster\main.c
+	<avr/io.h>
+	"Delay1174.h"
+
+1607501684 d:\programme\atmega328\binaerzaehlertaster\delay1174.h
+

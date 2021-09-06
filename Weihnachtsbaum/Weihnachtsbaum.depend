@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1606379528 source:d:\programme\atmega328\weihnachtsbaum\fuse.c
+	<avr/io.h>
+
+1606382988 source:d:\programme\atmega328\weihnachtsbaum\main.c
+	<avr/io.h>
+
+1606379530 source:h:\desktop\automation 2020\atmega328\weihnachtsbaum\fuse.c
+	<avr/io.h>
+
+1606382990 source:h:\desktop\automation 2020\atmega328\weihnachtsbaum\main.c
+	<avr/io.h>
+

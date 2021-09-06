@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1615540961 source:d:\programme\atmega328\pwm_test\fuse.c
+	<avr/io.h>
+
+1615542737 source:d:\programme\atmega328\pwm_test\main.c
+	"../Headerfunktionen/UART.h"
+	"../Headerfunktionen/mydelay.h"
+	<avr/io.h>
+
+1615503856 d:\programme\atmega328\headerfunktionen\uart.h
+	<avr/io.h>
+
+1608201242 d:\programme\atmega328\headerfunktionen\mydelay.h
+	<avr/io.h>
+
+1615540962 source:z:\atmega328\pwm_test\fuse.c
+	<avr/io.h>
+

@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1606726454 source:d:\programme\atmega328\blinken\fuse.c
+	<avr/io.h>
+
+1607332812 source:d:\programme\atmega328\blinken\main.c
+	"delay.h"
+	<avr/io.h>
+
+1606727114 d:\programme\atmega328\blinken\delay1174.h
+
+1606727114 d:\programme\atmega328\blinken\delay1173.h
+
+1606729605 d:\programme\atmega328\blinken\17schben1util.h
+
+1607332500 d:\programme\atmega328\blinken\delay.h
+

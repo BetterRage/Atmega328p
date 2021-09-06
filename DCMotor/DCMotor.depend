@@ -1,0 +1,54 @@
+# depslib dependency file v1.0
+1616146874 source:e:\atmega328\dcmotor\fuse.c
+	<avr/io.h>
+
+1616150474 source:d:\programme\atmega328\dcmotor\fuse.c
+	<avr/io.h>
+
+1618263850 source:d:\programme\atmega328\dcmotor\main.c
+	"lcd.h"
+	<avr/interrupt.h>
+	<string.h>
+	"../HeaderFunktionen/UART.h"
+
+1608201242 d:\programme\atmega328\headerfunktionen\mydelay.h
+	<avr/io.h>
+
+1616749637 d:\programme\atmega328\headerfunktionen\uart.h
+	<avr/io.h>
+
+1617784435 source:d:\programme\atmega328\dcmotor\lcd.c
+	<inttypes.h>
+	<avr/io.h>
+	<avr/pgmspace.h>
+	<util/delay.h>
+	"lcd.h"
+
+1617799394 d:\programme\atmega328\dcmotor\lcd.h
+	<inttypes.h>
+	<avr/pgmspace.h>
+	"lcd_definitions.h"
+
+1616150474 source:z:\atmega328p\dcmotor\fuse.c
+	<avr/io.h>
+
+1617788036 source:z:\atmega328p\dcmotor\lcd.c
+	<inttypes.h>
+	<avr/io.h>
+	<avr/pgmspace.h>
+	<util/delay.h>
+	"lcd.h"
+
+1617802996 z:\atmega328p\dcmotor\lcd.h
+	<inttypes.h>
+	<avr/pgmspace.h>
+	"lcd_definitions.h"
+
+1618558758 source:z:\atmega328p\dcmotor\main.c
+	<avr/interrupt.h>
+	<string.h>
+	"../HeaderFunktionen/UART.h"
+
+1616749638 z:\atmega328p\headerfunktionen\uart.h
+	<avr/io.h>
+

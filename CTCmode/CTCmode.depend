@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1616745459 source:d:\programme\atmega328\ctcmode\fuse.c
+	<avr/io.h>
+
+1616749568 source:d:\programme\atmega328\ctcmode\main.c
+	<avr/interrupt.h>
+	<string.h>
+	"../HeaderFunktionen/UART.h"
+	"../HeaderFunktionen/mydelay.h"
+
+1616746037 d:\programme\atmega328\headerfunktionen\uart.h
+	<avr/io.h>
+
+1608201242 d:\programme\atmega328\headerfunktionen\mydelay.h
+	<avr/io.h>
+

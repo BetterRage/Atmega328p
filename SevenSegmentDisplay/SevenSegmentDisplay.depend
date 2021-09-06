@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1607679822 source:d:\programme\atmega328\sevensegmentdisplay\fuse.c
+	<avr/io.h>
+
+1608547114 source:d:\programme\atmega328\sevensegmentdisplay\main.c
+	"../Headerfunktionen/mydelay.h"
+	"../Headerfunktionen/drehschalter.h"
+	"../Headerfunktionen/sevensegment.h"
+	<avr/io.h>
+
+1607676222 source:h:\desktop\automation 2020\atmega328\sevensegmentdisplay\fuse.c
+	<avr/io.h>
+
+1608119920 source:h:\desktop\automation 2020\atmega328\sevensegmentdisplay\main.c
+	<avr/io.h>
+
+1608204842 d:\programme\atmega328\headerfunktionen\mydelay.h
+	<avr/io.h>
+
+1608204802 d:\programme\atmega328\headerfunktionen\drehschalter.h
+	<avr/io.h>
+
+1608559864 d:\programme\atmega328\headerfunktionen\sevensegment.h
+	<avr/io.h>
+

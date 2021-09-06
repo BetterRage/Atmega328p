@@ -1,0 +1,4 @@
+# depslib dependency file v1.0
+1611752593 source:d:\programme\atmega328\Übungfürtest\fuse.c
+	<avr/io.h>
+

@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1609936092 source:d:\programme\atmega328\potentiometerauslesen\fuse.c
+	<avr/io.h>
+
+1609936430 source:d:\programme\atmega328\potentiometerauslesen\main.c
+	"../Headerfunktionen/UART.h"
+	"../Headerfunktionen/mydelay.h"
+	<avr/io.h>
+	<stdlib.h>
+
+1611066597 d:\programme\atmega328\headerfunktionen\uart.h
+	<avr/io.h>
+
+1608201242 d:\programme\atmega328\headerfunktionen\mydelay.h
+	<avr/io.h>
+
+1609936092 source:z:\atmega328\potentiometerauslesen\fuse.c
+	<avr/io.h>
+
+1615992312 source:z:\atmega328\potentiometerauslesen\main.c
+	"../Headerfunktionen/UART.h"
+	"../Headerfunktionen/mydelay.h"
+	<avr/io.h>
+	<stdlib.h>
+
+1615503858 z:\atmega328\headerfunktionen\uart.h
+	<avr/io.h>
+
+1608201242 z:\atmega328\headerfunktionen\mydelay.h
+	<avr/io.h>
+

@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1607933628 source:d:\programme\atmega328\header\drehschalter.c
+	<avr/io.h>
+
+1607933606 source:d:\programme\atmega328\header\mydelay.c
+	<avr/io.h>
+
+1607933503 source:d:\programme\atmega328\header\uart.c
+	<avr/io.h>
+
+1607932934 source:d:\programme\atmega328\serialinterface\fuse.c
+	<avr/io.h>
+
+1607954302 source:d:\programme\atmega328\serialinterface\drehschalter.c
+	<avr/io.h>
+
+1607933608 source:d:\programme\atmega328\serialinterface\mydelay.c
+	<avr/io.h>
+
+1607933504 source:d:\programme\atmega328\serialinterface\uart.c
+	<avr/io.h>
+
+1607954460 source:d:\programme\atmega328\serialinterface\main.c
+	<avr/io.h>
+	<stdlib.h>
+	"../Header/drehschalter.h"
+	"../Header/UART.h"
+	"../Header/mydelay.h"
+
+1607934426 d:\programme\atmega328\serialinterface\drehschalter.h
+
+1607934479 d:\programme\atmega328\serialinterface\mydelay.h
+
+1607934189 d:\programme\atmega328\serialinterface\uart.h
+
+1607939434 d:\programme\atmega328\header\drehschalter.h
+
+1607934189 d:\programme\atmega328\header\uart.h
+
+1607934479 d:\programme\atmega328\header\mydelay.h
+

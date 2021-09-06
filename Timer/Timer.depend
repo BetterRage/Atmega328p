@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1613117258 source:d:\programme\atmega328\timer\fuse.c
+	<avr/io.h>
+
+1615469582 source:d:\programme\atmega328\timer\main.c
+	<avr/interrupt.h>
+	"../Headerfunktionen/UART.h"
+
+1616149389 d:\programme\atmega328\headerfunktionen\uart.h
+	<avr/io.h>
+
+1613117258 source:g:\atmega328\timer\fuse.c
+	<avr/io.h>
+

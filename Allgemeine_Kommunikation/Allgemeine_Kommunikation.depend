@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1614326796 source:f:\schuljahr 2020_2021\automation\mikrocontroller programmierung\allgemeine_kommunikation\fuse.c
+	<avr/io.h>
+
+1614335024 source:f:\schuljahr 2020_2021\automation\mikrocontroller programmierung\allgemeine_kommunikation\main.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	"UART.h"
+	<string.h>
+	<stdlib.h>
+
+1614328584 f:\schuljahr 2020_2021\automation\mikrocontroller programmierung\allgemeine_kommunikation\uart.h
+
+1614328872 source:f:\schuljahr 2020_2021\automation\mikrocontroller programmierung\allgemeine_kommunikation\uart.c
+	<avr/io.h>
+
+1614341513 source:d:\programme\atmega328\allgemeine_kommunikation\fuse.c
+	<avr/io.h>
+
+1615503775 source:d:\programme\atmega328\allgemeine_kommunikation\main.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	"../Headerfunktionen/UART.h"
+	<string.h>
+	<stdlib.h>
+
+1614341513 d:\programme\atmega328\allgemeine_kommunikation\uart.h
+
+1614341513 source:d:\programme\atmega328\allgemeine_kommunikation\uart.c
+	<avr/io.h>
+
+1615503856 d:\programme\atmega328\headerfunktionen\uart.h
+	<avr/io.h>
+
+1614345114 source:e:\atmega328p\allgemeine_kommunikation\fuse.c
+	<avr/io.h>
+
+1615507376 source:e:\atmega328p\allgemeine_kommunikation\main.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	"../Headerfunktionen/UART.h"
+	<string.h>
+	<stdlib.h>
+
+1616749638 e:\atmega328p\headerfunktionen\uart.h
+	<avr/io.h>
+

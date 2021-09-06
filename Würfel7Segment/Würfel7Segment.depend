@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1607933608 source:h:\desktop\automation 2020\atmega328\header\mydelay.c
+	<avr/io.h>
+
+1608122351 source:h:\desktop\automation 2020\atmega328\würfel7segment\fuse.c
+	<avr/io.h>
+
+1608126424 source:h:\desktop\automation 2020\atmega328\würfel7segment\main.c
+	<avr/io.h>
+	"../Header/mydelay.h"
+
+1607934480 h:\desktop\automation 2020\atmega328\header\mydelay.h
+

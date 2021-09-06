@@ -1,0 +1,71 @@
+# depslib dependency file v1.0
+1609443208 source:d:\programme\atmega328\test adc\fuse.c
+	<avr/io.h>
+
+1609443208 source:d:\programme\atmega328\testadc\fuse.c
+	<avr/io.h>
+
+1609452292 source:d:\programme\atmega328\testadc\main.c
+	"../Headerfunktionen/UART.h"
+	"../Headerfunktionen/mydelay.h"
+	<avr/io.h>
+	<stdlib.h>
+
+1616749637 d:\programme\atmega328\headerfunktionen\uart.h
+	<avr/io.h>
+
+1608204842 d:\programme\atmega328\headerfunktionen\mydelay.h
+	<avr/io.h>
+
+1609443210 source:h:\desktop\automation 2020\atmega328\testadc\fuse.c
+	<avr/io.h>
+
+1610092101 source:h:\desktop\automation 2020\atmega328\testadc\main.c
+	"../Headerfunktionen/UART.h"
+	"../Headerfunktionen/mydelay.h"
+	<avr/io.h>
+	<stdlib.h>
+
+1609451188 h:\desktop\automation 2020\atmega328\headerfunktionen\uart.h
+	<avr/io.h>
+
+1608201242 h:\desktop\automation 2020\atmega328\headerfunktionen\mydelay.h
+	<avr/io.h>
+
+1609446810 source:d:\programme\atmega328\joystick\fuse.c
+	<avr/io.h>
+
+1617799333 source:d:\programme\atmega328\joystick\main.c
+	"../Headerfunktionen/UART.h"
+	"lcd.h"
+	<avr/io.h>
+	<avr/interrupt.h>
+	<string.h>
+
+1609443210 source:e:\atmega328\joystick\fuse.c
+	<avr/io.h>
+
+1612794160 source:e:\atmega328\joystick\main.c
+	"../Headerfunktionen/UART.h"
+	"../Headerfunktionen/mydelay.h"
+	<avr/io.h>
+	<avr/interrupt.h>
+
+1612793534 e:\atmega328\headerfunktionen\uart.h
+	<avr/io.h>
+
+1608201242 e:\atmega328\headerfunktionen\mydelay.h
+	<avr/io.h>
+
+1617784435 source:d:\programme\atmega328\joystick\lcd.c
+	<inttypes.h>
+	<avr/io.h>
+	<avr/pgmspace.h>
+	<util/delay.h>
+	"lcd.h"
+
+1617799296 d:\programme\atmega328\joystick\lcd.h
+	<inttypes.h>
+	<avr/pgmspace.h>
+	"lcd_definitions.h"
+

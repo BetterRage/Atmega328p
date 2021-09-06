@@ -1,0 +1,6 @@
+#ifndef DREHSCHALTER_H_INCLUDED
+#define DREHSCHALTER_H_INCLUDED
+
+uint8_t get4bit();
+
+#endif // DREHSCHALTER_H_INCLUDED

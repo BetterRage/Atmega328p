@@ -1,0 +1,10 @@
+D:\Programme\Atmega328\Oszilloskop\Oszilloskop\bin\Debug\Oszilloskop.exe.config
+D:\Programme\Atmega328\Oszilloskop\Oszilloskop\bin\Debug\Oszilloskop.exe
+D:\Programme\Atmega328\Oszilloskop\Oszilloskop\bin\Debug\Oszilloskop.pdb
+D:\Programme\Atmega328\Oszilloskop\Oszilloskop\obj\Debug\Oszilloskop.csprojAssemblyReference.cache
+D:\Programme\Atmega328\Oszilloskop\Oszilloskop\obj\Debug\Oszilloskop.Properties.Resources.resources
+D:\Programme\Atmega328\Oszilloskop\Oszilloskop\obj\Debug\Oszilloskop.csproj.GenerateResource.cache
+D:\Programme\Atmega328\Oszilloskop\Oszilloskop\obj\Debug\Oszilloskop.csproj.CoreCompileInputs.cache
+D:\Programme\Atmega328\Oszilloskop\Oszilloskop\obj\Debug\Oszilloskop.exe
+D:\Programme\Atmega328\Oszilloskop\Oszilloskop\obj\Debug\Oszilloskop.pdb
+D:\Programme\Atmega328\Oszilloskop\Oszilloskop\obj\Debug\Oszilloskop.Form1.resources

@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1608201301 source:d:\programme\atmega328\testheader\fuse.c
+	<avr/io.h>
+
+1608673845 source:d:\programme\atmega328\testheader\main.c
+	"../HeaderFunktionen/mydelay.h"
+	"../HeaderFunktionen/pinauslesen.h"
+	"../HeaderFunktionen/sevensegment.h"
+	<avr/io.h>
+
+1608201242 d:\programme\atmega328\headerfunktionen\mydelay.h
+	<avr/io.h>
+
+1610448950 d:\programme\atmega328\headerfunktionen\pinauslesen.h
+	<avr/io.h>
+
+1608556264 d:\programme\atmega328\headerfunktionen\sevensegment.h
+	<avr/io.h>
+
+1608286071 d:\programme\atmega328\headerfunktionen\flankenerkennung.h
+	<avr/io.h>
+	"../Headerfunktionen/pinauslesen.h"
+	"../Headerfunktionen/mydelay.h"
+
+1608201302 source:d:\programme\atmega328\flankensteuerung\fuse.c
+	<avr/io.h>
+
+1608673846 source:d:\programme\atmega328\flankensteuerung\main.c
+	"../HeaderFunktionen/mydelay.h"
+	"../HeaderFunktionen/pinauslesen.h"
+	"../HeaderFunktionen/sevensegment.h"
+	<avr/io.h>
+
+1608204902 source:z:\atmega328p\flankensteuerungstepper\fuse.c
+	<avr/io.h>
+
+1608677446 source:z:\atmega328p\flankensteuerungstepper\main.c
+	"../HeaderFunktionen/mydelay.h"
+	"../HeaderFunktionen/pinauslesen.h"
+	"../HeaderFunktionen/sevensegment.h"
+	<avr/io.h>
+
+1608204842 z:\atmega328p\headerfunktionen\mydelay.h
+	<avr/io.h>
+
+1610452552 z:\atmega328p\headerfunktionen\pinauslesen.h
+	<avr/io.h>
+
+1608559864 z:\atmega328p\headerfunktionen\sevensegment.h
+	<avr/io.h>
+

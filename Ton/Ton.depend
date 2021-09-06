@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1614087938 source:g:\atmega328\ton\fuse.c
+	<avr/io.h>
+
+1614095416 source:g:\atmega328\ton\main.c
+	<avr/interrupt.h>
+	<avr/io.h>
+	"../Headerfunktionen/mydelay.h"
+
+1608201242 g:\atmega328\headerfunktionen\mydelay.h
+	<avr/io.h>
+
+1614087938 source:e:\atmega328\ton\fuse.c
+	<avr/io.h>
+
+1614091538 source:d:\programme\atmega328\ton\fuse.c
+	<avr/io.h>
+
+1614087938 source:z:\atmega328\ton\fuse.c
+	<avr/io.h>
+
+1615980698 source:z:\atmega328\ton\main.c
+	<avr/interrupt.h>
+	<avr/io.h>
+	"../Headerfunktionen/mydelay.h"
+
+1608201242 z:\atmega328\headerfunktionen\mydelay.h
+	<avr/io.h>
+
+1616760066 source:d:\programme\atmega328\ton\main.c
+	<avr/interrupt.h>
+	<avr/io.h>
+	"../Headerfunktionen/mydelay.h"
+
+1608204842 d:\programme\atmega328\headerfunktionen\mydelay.h
+	<avr/io.h>
+
+1614091538 source:z:\atmega328p\ton\fuse.c
+	<avr/io.h>
+
+1618410178 source:z:\atmega328p\ton\main.c
+	<avr/interrupt.h>
+	<avr/io.h>
+	<util/delay.h>
+
+1614091538 source:e:\atmega328p\ton\fuse.c
+	<avr/io.h>
+
+1618406578 source:e:\atmega328p\ton\main.c
+	<avr/interrupt.h>
+	<avr/io.h>
+	<util/delay.h>
+

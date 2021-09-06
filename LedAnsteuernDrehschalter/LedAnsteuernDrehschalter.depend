@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1607611030 source:d:\programme\atmega328\ledansteuerndrehschalter\fuse.c
+	<avr/io.h>
+
+1607625728 source:d:\programme\atmega328\ledansteuerndrehschalter\main.c
+	<avr/io.h>
+

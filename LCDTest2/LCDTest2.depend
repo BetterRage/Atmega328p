@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1616787567 source:d:\programme\atmega328\lcdtest2\fuse.c
+	<avr/io.h>
+
+1617784435 source:d:\programme\atmega328\lcdtest2\lcd.c
+	<inttypes.h>
+	<avr/io.h>
+	<avr/pgmspace.h>
+	<util/delay.h>
+	"lcd.h"
+
+1618314289 d:\programme\atmega328\lcdtest2\lcd.h
+	<inttypes.h>
+	<avr/pgmspace.h>
+	"lcd_definitions.h"
+
+1617799142 source:d:\programme\atmega328\lcdtest2\main.c
+	"lcd.h"
+	<avr/io.h>
+	<util/delay.h>
+

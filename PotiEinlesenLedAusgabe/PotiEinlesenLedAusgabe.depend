@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1610093423 source:h:\desktop\automation 2020\atmega328\potieinlesenledausgabe\fuse.c
+	<avr/io.h>
+
+1610095633 source:h:\desktop\automation 2020\atmega328\potieinlesenledausgabe\main.c
+	"../Headerfunktionen/UART.h"
+	"../Headerfunktionen/mydelay.h"
+	<avr/io.h>
+	<stdlib.h>
+
+1609451188 h:\desktop\automation 2020\atmega328\headerfunktionen\uart.h
+	<avr/io.h>
+
+1608201242 h:\desktop\automation 2020\atmega328\headerfunktionen\mydelay.h
+	<avr/io.h>
+
+1610093424 source:d:\programme\atmega328\potieinlesenledausgabe\fuse.c
+	<avr/io.h>
+
+1610448772 source:d:\programme\atmega328\potieinlesenledausgabe\main.c
+	"../Headerfunktionen/UART.h"
+	"../Headerfunktionen/mydelay.h"
+	"../Headerfunktionen/pinauslesen.h"
+	<avr/io.h>
+	<stdlib.h>
+
+1609451188 d:\programme\atmega328\headerfunktionen\uart.h
+	<avr/io.h>
+
+1608201242 d:\programme\atmega328\headerfunktionen\mydelay.h
+	<avr/io.h>
+
+1610448950 d:\programme\atmega328\headerfunktionen\pinauslesen.h
+	<avr/io.h>
+

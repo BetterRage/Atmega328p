@@ -1,0 +1,43 @@
+Z:\joe auf meinem Mac\Dropbox\A_Scora\C#_RS232Kommunikation\myMonitor0\bin\Debug\myMonitor0.exe.config
+Z:\joe auf meinem Mac\Dropbox\A_Scora\C#_RS232Kommunikation\myMonitor0\bin\Debug\myMonitor0.exe
+Z:\joe auf meinem Mac\Dropbox\A_Scora\C#_RS232Kommunikation\myMonitor0\bin\Debug\myMonitor0.pdb
+Z:\joe auf meinem Mac\Dropbox\A_Scora\C#_RS232Kommunikation\myMonitor0\obj\Debug\myMonitor0.csprojResolveAssemblyReference.cache
+Z:\joe auf meinem Mac\Dropbox\A_Scora\C#_RS232Kommunikation\myMonitor0\obj\Debug\myMonitor0.MainForm.resources
+Z:\joe auf meinem Mac\Dropbox\A_Scora\C#_RS232Kommunikation\myMonitor0\obj\Debug\myMonitor0.csproj.GenerateResource.Cache
+Z:\joe auf meinem Mac\Dropbox\A_Scora\C#_RS232Kommunikation\myMonitor0\obj\Debug\myMonitor0.exe
+Z:\joe auf meinem Mac\Dropbox\A_Scora\C#_RS232Kommunikation\myMonitor0\obj\Debug\myMonitor0.pdb
+D:\Programme\Atmega328\TestADC\myMonitor0\bin\Debug\myMonitor0.exe.config
+D:\Programme\Atmega328\TestADC\myMonitor0\bin\Debug\myMonitor0.exe
+D:\Programme\Atmega328\TestADC\myMonitor0\bin\Debug\myMonitor0.pdb
+D:\Programme\Atmega328\TestADC\myMonitor0\obj\Debug\myMonitor0.csprojAssemblyReference.cache
+D:\Programme\Atmega328\TestADC\myMonitor0\obj\Debug\myMonitor0.MainForm.resources
+D:\Programme\Atmega328\TestADC\myMonitor0\obj\Debug\myMonitor0.csproj.GenerateResource.cache
+D:\Programme\Atmega328\TestADC\myMonitor0\obj\Debug\myMonitor0.csproj.CoreCompileInputs.cache
+D:\Programme\Atmega328\TestADC\myMonitor0\obj\Debug\myMonitor0.exe
+D:\Programme\Atmega328\TestADC\myMonitor0\obj\Debug\myMonitor0.pdb
+H:\Desktop\Automation 2020\Atmega328\TestADC\myMonitor0\bin\Debug\myMonitor0.exe.config
+H:\Desktop\Automation 2020\Atmega328\TestADC\myMonitor0\bin\Debug\myMonitor0.exe
+H:\Desktop\Automation 2020\Atmega328\TestADC\myMonitor0\bin\Debug\myMonitor0.pdb
+H:\Desktop\Automation 2020\Atmega328\TestADC\myMonitor0\obj\Debug\myMonitor0.csprojResolveAssemblyReference.cache
+H:\Desktop\Automation 2020\Atmega328\TestADC\myMonitor0\obj\Debug\myMonitor0.MainForm.resources
+H:\Desktop\Automation 2020\Atmega328\TestADC\myMonitor0\obj\Debug\myMonitor0.csproj.GenerateResource.Cache
+H:\Desktop\Automation 2020\Atmega328\TestADC\myMonitor0\obj\Debug\myMonitor0.exe
+H:\Desktop\Automation 2020\Atmega328\TestADC\myMonitor0\obj\Debug\myMonitor0.pdb
+D:\Programme\Atmega328\Joystick\myMonitor0\bin\Debug\myMonitor0.exe.config
+D:\Programme\Atmega328\Joystick\myMonitor0\bin\Debug\myMonitor0.exe
+D:\Programme\Atmega328\Joystick\myMonitor0\obj\Debug\myMonitor0.MainForm.resources
+D:\Programme\Atmega328\Joystick\myMonitor0\obj\Debug\myMonitor0.csproj.GenerateResource.cache
+D:\Programme\Atmega328\Joystick\myMonitor0\obj\Debug\myMonitor0.exe
+D:\Programme\Atmega328\Joystick\myMonitor0\obj\Debug\myMonitor0.pdb
+D:\Programme\Atmega328\Joystick\myMonitor0\bin\Debug\myMonitor0.pdb
+D:\Programme\Atmega328\Joystick\myMonitor0\obj\Debug\myMonitor0.csprojAssemblyReference.cache
+D:\Programme\Atmega328\Joystick\myMonitor0\obj\Debug\myMonitor0.csproj.CoreCompileInputs.cache
+E:\Atmega328\Joystick\myMonitor0\bin\Debug\myMonitor0.exe.config
+E:\Atmega328\Joystick\myMonitor0\bin\Debug\myMonitor0.exe
+E:\Atmega328\Joystick\myMonitor0\bin\Debug\myMonitor0.pdb
+E:\Atmega328\Joystick\myMonitor0\obj\Debug\myMonitor0.csprojAssemblyReference.cache
+E:\Atmega328\Joystick\myMonitor0\obj\Debug\myMonitor0.MainForm.resources
+E:\Atmega328\Joystick\myMonitor0\obj\Debug\myMonitor0.csproj.GenerateResource.cache
+E:\Atmega328\Joystick\myMonitor0\obj\Debug\myMonitor0.csproj.CoreCompileInputs.cache
+E:\Atmega328\Joystick\myMonitor0\obj\Debug\myMonitor0.exe
+E:\Atmega328\Joystick\myMonitor0\obj\Debug\myMonitor0.pdb

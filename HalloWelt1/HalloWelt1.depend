@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1605867518 source:d:\programme\atmega328\hallowelt1\fuse.c
+	<avr/io.h>
+
+1605870080 source:d:\programme\atmega328\hallowelt1\main.c
+	<avr/io.h>
+
